@@ -5,5 +5,8 @@ HeaderComponent.annotations = [
   }),
   new angular.ViewAnnotation({
     templateUrl: 'site/header.html',
+    directives: [
+      angular.router.RouterLink
+    ]
   })
 ];
